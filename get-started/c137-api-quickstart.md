@@ -61,9 +61,9 @@ If your key is valid, after executing the code above the response will look like
 ```
 {% endhint %}
 
-In caso of any error, you will see something like:
+In case of any error, you will see something like:
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 ```json
 {
     "status": "error",
