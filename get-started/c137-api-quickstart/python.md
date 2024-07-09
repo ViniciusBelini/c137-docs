@@ -8,7 +8,7 @@ description: >-
 
 ## Install the SDK <a href="#install-sdk" id="install-sdk"></a>
 
-You can install the Python SDK for C137 API in the C137 package. install the dependency using pip:
+You can install the Python SDK for C137 API in the C137 package. Install the dependency using pip:
 
 ```python
 pip install c137
