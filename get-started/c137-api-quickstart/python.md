@@ -36,6 +36,7 @@ After all, you can quickly generate your text using the code below:
 
 ```python
 response = model.text_generate("Why is the sky blue?")
+print(response["text"])
 ```
 
 Now you can generate texts using AI quickly and simply.
