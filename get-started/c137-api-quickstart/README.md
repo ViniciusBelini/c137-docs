@@ -36,11 +36,13 @@ import requests
 KEY = "YOUR_KEY"
 MODEL_NAME = "c137_safe"
 
-url = f"https://c137.belini.shop/api/text_generate?model_name={MODEL_NAME}&key={KEY}"
+url = "https://c137.belini.shop/api/generateText"
 headers = {'Content-Type': 'application/json'}
 data = {
     "instructions": "Analyze the level of sentiment in a section of text from 0 to 10.",
-    "text": "This is a fantastic API! I highly recommend it."
+    "text": "This is a fantastic API! I highly recommend it.",
+    "key": KEY,
+    "model_name": MODEL_NAME
 }
 
 response = requests.post(url, headers=headers, json=data)
