@@ -24,8 +24,8 @@ Alternatively, you can test your new API key using a Curl command. Curl is a ver
 KEY="YOUR_KEY"
 MODEL_NAME="c137_safe"
 curl -H 'Content-Type: application/json' \
-     -d '{"text":"Hello, C137!"}' \
-     "https://c137.belini.shop/api/text_generate?model_name={MODEL_NAME}&=${KEY}"
+     -d '{"key":"{KEY}","model_name":"{MODEL_NAME}","text":"Hello, C137!"}' \
+     "https://c137.belini.shop/api/generateText"
 ```
 
 _Replace 'YOUR\_KEY' with your secret key._
