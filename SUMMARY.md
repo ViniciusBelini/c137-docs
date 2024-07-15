@@ -12,3 +12,4 @@
 ## 🧩 Compatibilities
 
 * [📖 Instructions](compatibilities/instructions.md)
+* [⏱️ History](compatibilities/history.md)
