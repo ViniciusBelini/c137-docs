@@ -54,7 +54,7 @@ The structure of the History array is simple but important for the model to unde
 
 ### Basic Example
 
-To include an instruction in your request, simply add a key-value pair to your request. The key should be "history" and the value should be the instruction you want to provide.
+To include an instruction in your request, simply add a key-value pair to your request. The key should be "history" and the value should be the history you want to provide.
 
 Here's a Python example:
 
@@ -64,16 +64,13 @@ import requests
 URL = "https://c137.belini.shop/api/generateText"
 KEY = "YOUR KEY HERE"
 
-INSTRUCTIONS = "Please provide your answer in a numbered list."
-
-history = {
-    "2023-10-26 10:00:00": {"user": "My name is John"}, 
-    "2023-10-26 10:00:30": {"user": "I am a software engineer"} 
-}
+history = '''{
+    "2023-10-26 10:00:00": {"user": "My name is John"} 
+}'''
 
 data = {
     "key": KEY,
-    "history" = history,
+    "history": history,
     "text": "What is my name?"
 }
 

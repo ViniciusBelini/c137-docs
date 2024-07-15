@@ -12,4 +12,5 @@
 ## 🧩 Compatibilities
 
 * [📖 Instructions](compatibilities/instructions.md)
-* [⏱️ History](compatibilities/history.md)
+* [⏱️ History](compatibilities/history/README.md)
+  * [🍪 Cookie](compatibilities/history/cookie.md)
